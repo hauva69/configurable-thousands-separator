@@ -1,0 +1,8 @@
+@decimal-format desimaali {
+    grouping-separator: ".";
+    decimal-separator: ",";
+}
+
+.myNumber {
+    number-format: "0.00", "desimaali";
+}
